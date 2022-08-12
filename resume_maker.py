@@ -119,7 +119,7 @@ home=Button(root,bg='#29ff2c',fg=bgcolour,text=' Home  ',font=('arial',14),borde
 home.place(x=50,y=210)
 about=Button(root,fg='#29ff2c',bg=bgcolour,text=' About   ',font=('arial',14),border=0,
         activebackground='#29ff2c',command=about_click)
-about.place(x=140,y=210)
+about.place(x=140,y=210) 
 fun=Button(root,fg='#29ff2c',bg=bgcolour,text=' Fun  ',font=('arial',14),border=0,
         activebackground='#29ff2c',command=fun_click)
 fun.place(x=235,y=210)
