@@ -112,7 +112,7 @@ def loop(): #for mainloop
             circle.config(bg=bgcolour)
             bigcircle.config(bg=bgcolour)
             break
-  
+
 #buttons and frames:
 home=Button(root,bg='#29ff2c',fg=bgcolour,text=' Home  ',font=('arial',14),border=0,
         activebackground='#29ff2c',command=home_click)
