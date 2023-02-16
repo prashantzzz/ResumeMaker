@@ -130,7 +130,7 @@ bcolour.place(x=310,y=208)
 home_on=True
 about_on=False
 fun_on=False
-
+ 
 #Creating frames:
 home_frame=Frame(root)#,bg='green',border=5)
 text_home=Label(home_frame,text='Chat Screen',fg='white',bg=bgcolour).grid()
