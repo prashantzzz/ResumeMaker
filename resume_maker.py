@@ -26,7 +26,7 @@ circle.place(x=x_circle,y=y_circle)
 image1=PhotoImage(file='img.png');mypic=Label(image=image1)
 mypic.grid(row=0,padx=200)
 colourpic=PhotoImage(file='colour.png')
-
+ 
 #to quit
 def leave():
     global effect_run
