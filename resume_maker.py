@@ -4,7 +4,7 @@
 from tkinter import *
 import time, webbrowser
 from copy import deepcopy
- 
+  
 #creating GUI window
 root= Tk()
 #root.overrideredirect(1)
