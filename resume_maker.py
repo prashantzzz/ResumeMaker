@@ -9,7 +9,7 @@ from copy import deepcopy
 root= Tk()
 #root.overrideredirect(1)
 root.geometry('600x680+160+30')
- 
+
 colourlist=['#005c57','#044721','#82053f','#048a83','#121212','#453f3f','#00185e']
 #                                                   deeppink                       black
 bgcolour=colourlist[0]
