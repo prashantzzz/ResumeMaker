@@ -95,7 +95,7 @@ def fun_click():
     about.config(fg='#29ff2c',bg=bgcolour)
     fun.config(bg='#29ff2c',fg=bgcolour)
     fun_action()
-  
+
 def loop(): #for mainloop
     global bgcolour
     for i in colourlist:
@@ -114,7 +114,7 @@ def loop(): #for mainloop
             circle.config(bg=bgcolour)
             bigcircle.config(bg=bgcolour)
             break
-    
+
 #buttons and frames:
 home=Button(root,bg='#29ff2c',fg=bgcolour,text=' Home  ',font=('arial',14),border=0,
         activebackground='#29ff2c',command=home_click)
