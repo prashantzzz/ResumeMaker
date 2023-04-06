@@ -45,7 +45,7 @@ fun_selected=False
 def home_hover(button):
   if home_selected==False:
     home.config(bg='#29ff2c',fg=bgcolour)
-    
+
 def home_leave(button):
   if home_selected==False:
     home.config(fg='#29ff2c',bg=bgcolour)
