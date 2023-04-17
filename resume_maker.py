@@ -143,7 +143,7 @@ text_about=Label(about_frame,text='About Developer(me)',fg='white',bg=bgcolour).
  
 fun_frame=Frame(root)
 text_about=Label(fun_frame,text='Anything else',fg='white',bg=bgcolour).grid()
-
+ 
 #Placing and unplacing frames:
 def home_action(): #for home tab
     global home_on, about_on, fun_on
