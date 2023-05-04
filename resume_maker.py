@@ -140,7 +140,7 @@ home_frame.place(x=200,y=350)   #placed because home screen is selected by defau
 
 about_frame=Frame(root)
 text_about=Label(about_frame,text='About Developer(me)',fg='white',bg=bgcolour).grid()
- 
+
 fun_frame=Frame(root)
 text_about=Label(fun_frame,text='Anything else',fg='white',bg=bgcolour).grid()
 
