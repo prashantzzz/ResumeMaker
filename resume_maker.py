@@ -137,7 +137,7 @@ fun_on=False
 home_frame=Frame(root)#,bg='green',border=5)
 text_home=Label(home_frame,text='Chat Screen',fg='white',bg=bgcolour).grid()
 home_frame.place(x=200,y=350)   #placed because home screen is selected by default
- 
+
 about_frame=Frame(root)
 text_about=Label(about_frame,text='About Developer(me)',fg='white',bg=bgcolour).grid()
 
