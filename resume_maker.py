@@ -127,7 +127,7 @@ fun=Button(root,fg='#29ff2c',bg=bgcolour,text=' Fun  ',font=('arial',14),border=
 fun.place(x=235,y=210)
 bcolour=Button(root,image=colourpic,bg=bgcolour,activebackground=bgcolour,border=0,command=loop)
 bcolour.place(x=310,y=208)
-
+ 
 #Variables for handling frames
 home_on=True
 about_on=False
