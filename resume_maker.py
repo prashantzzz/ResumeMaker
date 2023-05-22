@@ -67,7 +67,7 @@ def fun_hover(button):
 def fun_leave(button):
   if fun_selected==False:
     fun.config(fg='#29ff2c',bg=bgcolour)
-
+ 
 #functions for click button animations:
 def home_click():
     global home_selected,about_selected,fun_selected
