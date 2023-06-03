@@ -155,7 +155,7 @@ def home_action(): #for home tab
         fun_on=False
     home_on=True
     home_frame.place(x=200,y=350)   
-    
+
 def about_action(): #for about tab
     global about_on, home_on, fun_on
     if home_on==True:
