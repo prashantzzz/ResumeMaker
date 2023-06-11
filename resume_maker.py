@@ -97,7 +97,7 @@ def fun_click():
     fun_action()
 
     
-def loop(): #for mainloop.
+def loop(): #for mainloop
     global bgcolour
     for i in colourlist:
         if bgcolour==i and bgcolour!=colourlist[-1]:
