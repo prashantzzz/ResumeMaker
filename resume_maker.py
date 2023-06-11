@@ -68,7 +68,7 @@ def fun_leave(button):
   if fun_selected==False:
     fun.config(fg='#29ff2c',bg=bgcolour)
     
-#func. for click button animations:
+#functions for click button animations:
 def home_click():
     global home_selected,about_selected,fun_selected
     home_selected=True
