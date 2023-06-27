@@ -96,7 +96,6 @@ def fun_click():
     fun.config(bg='#29ff2c',fg=bgcolour)
     fun_action()
 
-    
 def loop(): #for mainloop
     global bgcolour
     for i in colourlist:
