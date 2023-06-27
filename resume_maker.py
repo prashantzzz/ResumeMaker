@@ -77,7 +77,7 @@ def home_click():
     about.config(fg='#29ff2c',bg=bgcolour)
     fun.config(fg='#29ff2c',bg=bgcolour)
     home_action()
-    
+
 def about_click():
     global about_selected,home_selected,fun_selected
     about_selected=True
