@@ -63,7 +63,7 @@ def about_leave(button):
 def fun_hover(button):
   if fun_selected==False:
     fun.config(bg='#29ff2c',fg=bgcolour)
- 
+  
 def fun_leave(button):
   if fun_selected==False:
     fun.config(fg='#29ff2c',bg=bgcolour)
