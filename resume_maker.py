@@ -37,7 +37,6 @@ root.protocol("WM_DELETE_WINDOW",leave)
 def facebook():
     webbrowser.open('http://facebook.com//prashant')
 
-
 #Default values
 home_selected=True
 about_selected=False
