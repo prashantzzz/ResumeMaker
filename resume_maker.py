@@ -147,7 +147,7 @@ text_about=Label(fun_frame,text='Anything else',fg='white',bg=bgcolour).grid()
 
 
 #Placing and unplacing frames:
-def home_action():
+def home_action(): #for home tab
     global home_on, about_on, fun_on
     if about_on==True:
         about_frame.place_forget()
@@ -158,7 +158,7 @@ def home_action():
     home_on=True
     home_frame.place(x=200,y=350)   
     
-def about_action():
+def about_action(): #for about tab
     global about_on, home_on, fun_on
     if home_on==True:
         home_frame.place_forget()
@@ -169,7 +169,7 @@ def about_action():
     about_on=True
     about_frame.place(x=200,y=350)
 
-def fun_action():
+def fun_action(): 
     global about_on, home_on, fun_on
     if home_on==True:
         home_frame.place_forget()
