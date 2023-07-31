@@ -279,7 +279,7 @@ def effect():
                     circle.update()
                     time.sleep(0.02)
 
-def animation():
+def animation(): #to move the circles
     global y_bigcircle,x_bigcircle,x_circle,y_circle
     while True:
         for i in range (12):
