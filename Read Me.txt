@@ -1,1 +1,2 @@
 This app lets users make a customized GUI based resume bytaking their details and then beautifying it based on the details along with the clickable social links.
+Just download it and run the python code.
