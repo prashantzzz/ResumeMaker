@@ -316,10 +316,9 @@ def animation():
             x_circle+=1;y_circle-=1
             circle.place(x=x_circle,y=y_circle)
             circle.update()
-            
             time.sleep(0.05)
 effect()
-animation()
+animation() #runs the continuous animation
  
 #to continue running after it loads
 root.mainloop()
