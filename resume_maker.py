@@ -191,7 +191,7 @@ text1=Label(text=strg,bg=bgcolour,fg='#fc5b5e',font=('arial',25))
 text1.grid(row=1,padx=30)
 text3=[list("Exactly at 10 PM I... "),list("...Created this effect"),list('Dm if you want your text here')]#must contain even no of char.
 effect_run=True
-    #typewriting text animation
+#typewriting text animation
 def effect():
     global y_bigcircle,x_bigcircle,x_circle,y_circle
     while effect_run:
@@ -321,6 +321,6 @@ def animation():
 effect()
 animation()
 
-
+#to continue running after it loads
 root.mainloop()
 
