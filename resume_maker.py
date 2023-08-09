@@ -320,7 +320,7 @@ def animation():
             time.sleep(0.05)
 effect()
 animation()
-
+ 
 #to continue running after it loads
 root.mainloop()
 
