@@ -2,8 +2,8 @@ import subprocess
 from datetime import datetime, timedelta
 
 # Specify the number of commits and the base date
-num_commits = 11
-base_date = datetime(2023, 9, 24, 4, 0, 0) #yyyy m d h m s , 6 aug
+num_commits = 7
+base_date = datetime(2024, 3, 22, 5, 1, 0) #yyyy m d h m s , 6 aug
 
 # Create a new file for changes
 with open("example.txt", "w") as f:
