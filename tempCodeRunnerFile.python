@@ -1,0 +1,38 @@
+import tkinter as tk
+from tkinter import messagebox
+from PyDictionary import PyDictionary
+dictionary=PyDictionary()
+
+def find_meaning():
+    try: selected_text = text_box.selection_get()
+    except: selected_text=''
+    if selected_text:
+        meaning = get_meaning(selected_text)
+        result_label.config(text=f"Meaning: {meaning}")
+    else:
+        result_label.config(text="Please select a word.")
+
+def get_meaning(word):
+    # Replace this function with your actual code to fetch the meaning of the word.
+    # For simplicity, using a dummy function here.
+    # You might want to use a dictionary or an API to get the actual meanings.
+    return dictionary.meaning(word)
+
+# Create the main Tkinter window
+root = tk.Tk()
+root.title("Word Meaning Finder")
+
+# Create a Text widget for input
+text_box = tk.Text(root, height=5, width=30)
+text_box.pack(pady=10)
+
+# Create a 'Find Meaning' button
+find_button = tk.Button(root, text="Find Meaning", command=find_meaning)
+find_button.pack()
+
+# Create a label to display the meaning
+result_label = tk.Label(root, text="")
+result_label.pack(pady=10)
+
+# Run the Tkinter event loop
+root.mainloop()
